@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            test
+        </title>
+        <link href="index.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <!--html-->
+       <div class="c1">Hi</div>
+       <div class="c1">Farzan</div> 
+       <div class="c1">hope</div> 
+       <div class="c1">to be</div> 
+       <div class="c1">in a good mood</div> 
+       <div class="c2">Slide Down</div>
+       <div class="c3">Welcome to my website</div>
+       <!--script-->
+       <script src="jQuery/JQ.js"></script>
+       <script>
+        $(document).ready(function(){
+        $('.c2').click(function(){
+        $('.c3').slideToggle(2500)
+        });
+        });
+       </script>
+    </body>
+</html>
