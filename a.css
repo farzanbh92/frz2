@@ -1,9 +1,29 @@
-*{
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-}
-#i1{
+  }
+.c-main{
     width:100%;
     height:3000px;
     border:solid 1px;
+
+}
+.c1{
+    width:100%;
+    height:1000px;
+    border:solid 1px green;
+
+}
+.c2{
+    width:100%;
+    height:1000px;
+    border:solid 1px red;
+
+}
+.c3{
+    width:100%;
+    height:1000px;
+    border:solid 1px blue;
 
 }
