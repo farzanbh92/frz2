@@ -9,8 +9,23 @@
         <link href="c2.css" rel="stylesheet" type="text/css">
         <link href="c3.css" rel="stylesheet" type="text/css">
         <link href="slideshow.css" rel="stylesheet" type="text/css">
+      
     </head>
     <body>
+
+      <!--JQuery-->
+
+      <script src="JQuery.js"></script>
+      <script>
+        $(document).ready(function(){
+        $("#btn1").click(function(){
+        $(".c-main").css("background-color","black");
+        });
+        $("#btn2").click(function(){
+        $(".c-main").css("background-color","rgba(251, 255, 0, 0.5)");
+        })
+        });
+      </script>
      <div class="c-main">
         <!--section1-->
 
@@ -36,7 +51,10 @@
             border-radius: 10px; font-weight: bold;">Search</button>
           </div>
           </div>
-        <div id="i6"></div>
+        <div id="i6">
+          <button id="btn1" style="float:right">Dark Mode</button>
+          <button id="btn2" style="float:right">Light Mode</button>
+        </div>
         <div id="i7"><section>
           <pre>
             <p style="font-size:50px; font-weight: bold;">About Cadesign</p>
@@ -48,10 +66,11 @@ on designing industrial components
 such as part, mechanism, drafting 
 and etc.</p>
           </pre>
+          <button type="button" id="i8">More about CAD</button>
         </section></div>
         
             <!-- Slideshow container -->
-<div id="i8"><div class="slideshow-container">
+<div id="i9"><div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">  
