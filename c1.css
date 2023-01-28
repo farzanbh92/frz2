@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
   }
+  @font-face {
+    font-family: font1;
+    src: url(fonts/comicsansms.ttf);
+  }
+
 .c-main{
     width:100%;
     height:3000px;
