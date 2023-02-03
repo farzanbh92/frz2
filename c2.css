@@ -3,3 +3,29 @@
     height:1000px;
   border:solid 1px brown;
 }
+
+#i10{
+  position: absolute;
+  border:solid 1px green;
+  border-radius: 25px;
+  width:800px;
+  height:500px;
+  float:left;
+  margin-left:50px;
+  background-image: url(images/p05.jpg);
+  background-repeat: no-repeat;
+  background-size:800px 500px ;
+  z-index: 0;
+}
+#i11{
+  position: absolute;
+  border:solid 1px red;
+  border-radius: 25px;
+  width:800px;
+  height:600px;
+  background: rgba(250,250,250,0.8);
+  z-index: 1;
+  margin-top: 400px;
+  margin-left: 450px;
+
+}
