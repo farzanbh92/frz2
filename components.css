@@ -1,0 +1,228 @@
+.c1{
+    width:100%;
+    height:2.5vw;
+    float: left;
+    background-color: rgba(20,20,20,0.8);
+}
+.c11{
+    float:left;
+    width:20%;
+    height:100%;
+    color:white;
+    text-align: center;
+    padding-top: 0.25vw;
+    font-size: 1.5vw;
+    direction: rtl;
+    }
+.c12{
+    float:left;
+    width:60%;
+    height:100%;
+    color:white;
+    text-align: center;
+    padding-top: 0.25vw;
+    font-size: 1.5vw;
+    direction: rtl;
+    }
+.c13{
+    float:left;
+    width:20%;
+    height:100%;
+    color:white;
+    text-align: center;
+    padding-top: 0.25vw;
+    font-size: 1.5vw;
+    direction: rtl;
+    }
+
+.c2{
+    width:100%;
+    height:7.5vw;
+    float: left;
+    background-color: rgb(145, 145, 145)
+}
+.c2 #txt{
+    width:12%;
+    height:100%;
+    float: left;
+    font-size: 2.5vw;
+    padding-top: 2%;
+    padding-left: 2%;
+    text-shadow: 0 1px 5px gold;
+}
+.c2 section{
+    height:100%;
+    width:50%;
+    margin-left: 10%;
+    text-align: center;
+    font-size: 3vw;
+    padding-top: 1.5vw;
+    text-shadow: 0px 0px 3px rgb(248, 190, 0);
+    direction: rtl;
+    float: left;
+}
+.c21{
+    width:10%;
+    height:90%;
+    float: left;
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left:15%;
+}
+.c3{
+    float: left;
+    border:solid 2px gray;
+    width:20%;
+    height:20vw;
+    margin-left:10%;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.c3:hover{
+    background-color: rgb(255, 140, 0);
+}
+
+.c31{
+    width:100%;
+    height:80%;
+    float:left;
+}
+.c31 img{
+    width:100%;
+    height:100%;
+}
+.c32{
+    width:100%;
+    height:20%;
+    float:left;
+    direction: ltr;
+    text-align: center;
+    font-size:1.5vw;
+    padding-top: 1vw;
+}
+
+aside ul{
+    list-style-type: none;
+    margin-top:5vw;
+    float: left;
+    width:90%;
+}
+aside ul li{
+    width:100%;
+    height:3.5vw;
+    text-align: center;
+    margin-top: 2.5vw;
+    padding-top: 1vw;
+    font-size:1.2vw;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color:rgb(200,200,200,0.8);
+    cursor: pointer;
+    display: block;
+}
+aside ul li:hover{
+    background-color: rgb(255, 140, 0);
+    cursor: pointer;
+}
+
+.c4{
+    width:100%;
+    height:12vw;
+    background-color:rgb(180, 180, 180) ;
+}
+
+.c41{
+   width:60%;
+   height:5vw;
+   float:left;
+   margin-left:20%;
+   margin-top: 2.5vw;
+}
+.c41 .social1{
+    width:10%;
+    float: left;
+    height:100%;
+    cursor:pointer;
+    background-image: url(images/instagram.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left:30%;
+}
+.c41 .social2{
+    width:10%;
+    float: left;
+    height:100%;
+    margin-left: 5%;
+    cursor:pointer;
+    background-image: url(images/whatsapp.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.c41 .social3{
+    width:10%;
+    float: left;
+    height:100%;
+    margin-left: 5%;
+    cursor:pointer;
+    background-image: url(images/telegram.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.c5{
+    width:100%;
+    height:3vw;
+    background-color:rgba(20,20,20,0.9); 
+    direction: rtl;
+    text-align: center;
+    color:white;
+    font-size: 1.5vw;
+    padding-top: 0.5vw;
+}
+
+@media screen and (max-width:700px){
+    .c1{
+        height:7vw;
+    }
+    .c2{
+        height:18vw;
+    }
+    .c11, .c12, .c13{
+        font-size: 2.5vw;
+        padding-top: 1vw;
+    } 
+    .c11{
+        font-size: 1.5vw;
+        padding-top: 1vw;
+    } 
+    .c2 section{
+        font-size:4vw;
+    }
+    .c3{
+        width:29%;
+        height:40vw;
+        margin-left:14%;
+        margin-top: 10%;
+    }
+    .c32{
+        font-size:2.5vw; 
+    }
+    aside ul li{
+        height:5vw;
+        margin-top: 3vw;
+        padding-top: 1.2vw;
+        font-size:2.5vw;
+    }
+    .c4{
+        height:20vw;
+    }
+    .c5{
+        height: 5vw;
+        font-size: 2.5vw;
+    }
+    .c41{
+        height:8vw;
+        margin-top:6vw;
+    }
+}
